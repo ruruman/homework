@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>footer</title>
+    <link rel="stylesheet" href="/reset.css">
+
+    <style>
+        a{
+            text-decoration: none;
+            color: #8e9daa;
+        }
+        .main-footer{
+            padding-top: 150px;
+            background-color: #202331;
+            color: #8e9daa;
+            line-height: 2em;
+        }
+        .main-footer .container{
+            display: flex;
+            width: 1200px;
+            margin: auto ;
+        }
+        .main-footer h4{
+            padding-bottom: 20px;
+            font-size: 20px;
+            font-weight: 900;
+            color: #fff;
+            margin-bottom: 1em;
+            
+        }
+        .main-footer h5{
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .main-footer p{
+            font-size: 8px;
+            font-weight: 500;
+            color:rgba(142, 157, 170,.5);
+        }
+        .footer-item{
+            width: 0;
+            flex-grow: 1;
+            margin: 0 20px;
+        }
+        .footer-item .pic-logo{
+            width: 150px;
+            height: 75px;
+        }
+        .footer-item nav{
+            display: flex;
+            flex-direction: column;
+        }
+        .footer-item nav a{
+            text-decoration: none;
+            color: #8e9daa;
+            transition: .3s;
+        }
+        .footer-item  a:hover{
+            color: #2ec5b0;
+        }
+        .footer-item img{
+            width: 100%;
+            vertical-align: middle;
+        }
+        .footer-item .content img{
+            width: 100%;
+            border-radius: 100px;
+        }
+        .footer-item .content .txt{   
+            margin: auto;
+        }
+        .footer-item .content .txt p{   
+            color: #2ec5b0;
+        }
+        .footer-item .pic{
+            width: 75px;
+            height: 75px;
+            border-radius: 100px;
+        }
+        .footer-item .content{
+            display: flex;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+        }
+
+        .footer-subs form{
+            display: flex;
+        }
+
+        .footer-subs input[type="text"],
+        .footer-subs input[type="submit"]{
+            border: none;
+            padding: 10px 10px;
+            margin-top: 30px;  
+        }
+        .footer-subs input[type="text"]{
+            width: 0;
+            flex-grow: 1;
+            background-color: #000;
+            color: #fff;
+            font-weight: 400;
+            font-size: 16px;
+            border: 1px solid #aaa;
+        }
+        .footer-subs input[type="submit"]{
+            background-color: #393c4b;
+            color: aquamarine;
+            font-weight: 900;
+            padding: 0 15px;
+        }
+
+
+        .copyright{
+            background-color: #171728;
+            display: flex;
+            margin-top: 150px;
+            padding: 30px 0;
+            transition: .3s;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="main-footer">
+        <div class="container">
+            <div class="footer-item">
+                <div class="pic-logo">
+                    <img src="https://codex-themes.com/thegem/sites/business-light/wp-content/uploads/2019/02/9.png" alt="logo">
+                </div>
+                <h5>
+                    TheGem is a versatile wp theme with modern creative design. Made as an ultimate toolbox of content elements, styles & features, it helps people to build impressive high-performant.
+                </h5>
+            </div>
+            <div class="footer-item">
+                <h4>USEFUL LINKS<i class="fas fa-triangle"></i></h4>
+                <nav>
+                    <a href="#"><i class="fas fa-circle"></i>General Information For Users</a>
+                    <a href="#"><i class="fas fa-circle"></i>Interactive Fairy Tales</a>
+                    <a href="#"><i class="fas fa-circle"></i>Official Storybook Maker Website</a>
+                    <a href="#"><i class="fas fa-circle"></i>Everyday Mathematics Links</a>
+                    <a href="#"><i class="fas fa-circle"></i>Basic Knowledge and Experience</a>
+                </nav>
+            </div>
+            <div class="footer-item footer-subs">
+                <h4>NEWSLETTER</h4>
+                <h5>Subscribe to our MailChimp newsletter and stay up to date with all events coming straight in your mailbox:</h5>
+                <form>
+                    <input type="text" name="" id="" value="Your email address">
+                    <input type="submit" value=">">
+                </form>
+                <span>*</span><p>Personal data will be encrypted</p>
+
+            </div>
+            <div class="footer-item">
+                <h4>RECENT POSTS</h4>
+                <div class="content">
+                    <div class="pic">
+                        <img src="https://codex-themes.com/thegem/sites/business-light/wp-content/uploads/2018/11/2-5-thegem-post-thumb-large.jpg" alt="">
+                    </div>
+                    <div class="txt">
+                        <a href="">Small Business Trends</a>
+                        <p>10.01.2019</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="pic">
+                        <img src="https://codex-themes.com/thegem/sites/business-light/wp-content/uploads/2018/11/3-4-thegem-post-thumb-large.jpg" alt="">
+                    </div>
+                    <div class="txt">
+                        <a href="">Business Needs Ideas</a>
+                        <p>01.01.2019</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="footer-item">
+                2019&copy; Copyrights CodexThemes
+            </div>
+            <div class="footer-item">
+                <a href="">Support</a>
+                <a href="">Contact Us</a>
+                <a href="">Disclaimer</a>
+                <a href="">Add More</a>
+            </div>
+            <div class="footer-item">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-search"></i></a>
+            </div>
+        </div>
+
+
+
+    </div>
+    
+</body>
+</html>
